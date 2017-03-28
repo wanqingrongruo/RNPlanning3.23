@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     // Symbol documentation
     // 注释显示方式
     // 1. 把光标放到demo1所在的行上，按住option点一下，就会弹出这个函数的说明，可以看到Xcode已经把markdown注释渲染了；
-    // 2. 按Option + Command + 2打开Quick Help Inspector，保持光标在demo1()所在行，同样，我们可以看到被渲染过的Markdown注释(我没起作用)
+    // 2. 按Option + Command + 2打开Quick Help Inspector，保持光标在demo1()函数名上，同样，我们可以看到被渲染过的Markdown注释
 
     // 单行注释
     /// A **demo** function
