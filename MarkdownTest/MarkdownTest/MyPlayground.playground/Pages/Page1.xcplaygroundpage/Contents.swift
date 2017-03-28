@@ -76,11 +76,11 @@ var str = "Hello, playground 1"
  ## Initializers
  You can create an IntArray in the following ways:
  
- // An empty IntArray
- var empty: IntArray = []
+        // An empty IntArray
+        var empty: IntArray = []
  
- // Initialzied by an array literal
- var odds: IntArray = [0, 2, 4, 6, 8]
+        // Initialzied by an array literal
+        var odds: IntArray = [0, 2, 4, 6, 8]
  
  // Initialized by a default value
  var tenInts: IntArray = IntArray(repeating: 0, count: 10)
@@ -131,11 +131,11 @@ var str = "Hello, playground 1"
 /// If the number of elements to drop exceeds the number of elements in the
 /// collection, the result is an empty subsequence.
 ///
-///     let numbers = [1, 2, 3, 4, 5]
-///     print(numbers.dropLast(2))
-///     // Prints "[1, 2, 3]"
-///     print(numbers.dropLast(10))
-///     // Prints "[]"
+     ///     let numbers = [1, 2, 3, 4, 5]
+     ///     print(numbers.dropLast(2))
+     ///     // Prints "[1, 2, 3]"
+     ///     print(numbers.dropLast(10))
+     ///     // Prints "[]"
 ///
 /// - Parameter n: The number of elements to drop off the end of the collection.
 ///   `n` must be greater than or equal to zero.
