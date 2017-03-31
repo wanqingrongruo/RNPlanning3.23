@@ -193,6 +193,7 @@ singleCharViews.map(String.init)
 // 使用 Tuple 打包数据
 
 let success = (200, "OK")
+let fileNotFound = (404, "File not found")
 
 let me = (name: "roni", no: 28, email: "zwxwqrr@gmail")
 
