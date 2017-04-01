@@ -391,4 +391,17 @@ record["type"]?
     !? "Do not have a key named type"
  */
 
+//: ## 到底该在什么地方使用implicit optional -- 隐式解包 implicitly unwrapped optional
+
+// 出现场景
+// 1. 用来传承Objective-C中对象指针的语义
+// 2. 用来定义那些初始为nil，但一定会经过既定流程之后，就再也不会为nil的变量
+
+//: #### 用来传承Objective-C中对象指针的语义
+
+
+
+//: #### 用来定义那些初始为nil，但一定会经过既定流程之后，就再也不会为nil的变量
+
+
 
